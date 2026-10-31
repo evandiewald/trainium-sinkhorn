@@ -1,0 +1,40 @@
+On-device RNG not available - CPU RNG will be used
+neuron: n 10,000 m 10,000 d 64, block 10000/10000, eps 0.1
+  warm-up (incl. compile): 9.83 s
+  fixed 10 its: best 107.8 ms of 3 (10.78 ms/it, 1.86e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.0761x
+    vs A100 GeomLoss tensorized 54.0 ms: 0.501x
+    vs A100 KeOps 125.5 ms: 1.16x
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron: n 10,000 m 10,000 d 64, block 2048/2048, eps 0.1
+  warm-up (incl. compile): 5.00 s
+  fixed 10 its: best 102.5 ms of 3 (10.25 ms/it, 1.95e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.08x
+    vs A100 GeomLoss tensorized 54.0 ms: 0.527x
+    vs A100 KeOps 125.5 ms: 1.22x
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron: n 10,000 m 10,000 d 64, block 5000/5000, eps 0.1
+  warm-up (incl. compile): 5.71 s
+  fixed 10 its: best 109.3 ms of 3 (10.93 ms/it, 1.83e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.075x
+    vs A100 GeomLoss tensorized 54.0 ms: 0.494x
+    vs A100 KeOps 125.5 ms: 1.15x
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron: n 10,000 m 10,000 d 64, block 2048/2048, eps 0.05
+  warm-up (incl. compile): 1.50 s
+  fixed 10 its: best 102.5 ms of 3 (10.25 ms/it, 1.95e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.08x
+    vs A100 GeomLoss tensorized 54.0 ms: 0.527x
+    vs A100 KeOps 125.5 ms: 1.22x
+  to tol 0.0001: 20 its, 3.40 s, error 5.84e-08, converged True, cost 0.897155
+  float64 CPU: 20 its, 40.50 s, cost 0.897155, rel diff 5.68e-09
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron: n 50,000 m 50,000 d 64, block 2048/2048, eps 0.05
+  warm-up (incl. compile): 13.23 s
+  fixed 5 its: best 2508.2 ms of 3 (501.65 ms/it, 9.97e+09 pair updates/s)
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+DONE

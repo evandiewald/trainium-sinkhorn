@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# Large / regenerable outputs (kept on disk, not in git)
+results/sc_potentials/
+results/profiles/*.neff
+results/profiles/*.ntff
+results/profiles/*.pftrace
+results/profiles/*.pftrace.gz

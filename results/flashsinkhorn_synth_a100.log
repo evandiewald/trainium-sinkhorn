@@ -1,0 +1,4 @@
+FlashSinkhorn alternating A100 tf32, 10k x 10k d 64 eps 0.1, 10 its: best 7.1 ms, median 7.1 ms
+FlashSinkhorn symmetric A100 tf32, 10k x 10k d 64 eps 0.1, 10 its: best 7.9 ms, median 7.9 ms
+FlashSinkhorn alternating A100 fp32, 10k x 10k d 64 eps 0.1, 10 its: best 32.1 ms, median 32.1 ms
+FlashSinkhorn symmetric A100 fp32, 10k x 10k d 64 eps 0.1, 10 its: best 41.8 ms, median 41.9 ms

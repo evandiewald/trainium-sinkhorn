@@ -1,0 +1,61 @@
+On-device RNG not available - CPU RNG will be used
+neuron/nki/1 core(s): n 10,000 m 10,000 d 64, block 10000/10000, eps 0.1
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 5.34 s
+  fixed 10 its: best 36.7 ms of 5 (3.67 ms/it, 5.44e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.223x
+    vs A100 GeomLoss tensorized 54.0 ms: 1.47x
+    vs A100 KeOps 125.5 ms: 3.42x
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/2 core(s): n 10,000 m 10,000 d 64, block 10000/10000, eps 0.1
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 3.71 s
+  fixed 10 its: best 28.8 ms of 5 (2.88 ms/it, 6.95e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.285x
+    vs A100 GeomLoss tensorized 54.0 ms: 1.88x
+    vs A100 KeOps 125.5 ms: 4.36x
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/1 core(s): n 50,000 m 50,000 d 64, block 50000/50000, eps 0.05
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 19.66 s
+  fixed 5 its: best 420.0 ms of 3 (83.99 ms/it, 5.95e+10 pair updates/s)
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/2 core(s): n 50,000 m 50,000 d 64, block 50000/50000, eps 0.05
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 20.21 s
+  fixed 5 its: best 228.7 ms of 3 (45.74 ms/it, 1.09e+11 pair updates/s)
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/1 core(s): n 100,000 m 100,000 d 50, block 100000/100000, eps 0.05
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 18.98 s
+  fixed 3 its: best 1022.9 ms of 2 (340.97 ms/it, 5.87e+10 pair updates/s)
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/2 core(s): n 100,000 m 100,000 d 50, block 100000/100000, eps 0.05
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 0.84 s
+  fixed 3 its: best 524.8 ms of 2 (174.94 ms/it, 1.14e+11 pair updates/s)
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+On-device RNG not available - CPU RNG will be used
+neuron/nki/2 core(s): n 10,000 m 10,000 d 64, block 10000/10000, eps 0.05
+/source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx/torch_neuronx/nki_kernel.py:85: UserWarning: NKI_ENABLE_TRACE_CACHE=1: the NKI kernel compile cache is persisted across processes. The caching process may not capture all kernel environment dependencies or non-argument values and can yield stale cache hits; see the torch-neuronx environment variables documentation for details. Set NKI_ENABLE_TRACE_CACHE=0 to disable.
+  _warn_trace_cache_once()
+  warm-up (incl. compile): 0.08 s
+  fixed 10 its: best 29.0 ms of 3 (2.90 ms/it, 6.9e+10 pair updates/s)
+    vs A100 FlashSinkhorn 8.2 ms: 0.283x
+    vs A100 GeomLoss tensorized 54.0 ms: 1.86x
+    vs A100 KeOps 125.5 ms: 4.33x
+  to tol 0.0001: 20 its, 0.09 s, error 5.15e-08, converged True, cost 0.897155
+  float64 CPU: 20 its, 35.79 s, cost 0.897155, rel diff 4.50e-09
+  -> results/sinkhorn_ip-10-0-7-21_2026-10-30.csv
+DONE
